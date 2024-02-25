@@ -433,3 +433,29 @@ header.backImage .backImage-heading {
 .img-logo {
     height: 2.6rem;
 }
+
+/* contact styles */
+#contact {
+    background-color: #432630;
+    background-repeat: no-repeat;
+    background-image: url("../../img/map.png");
+    background-position: center;
+}
+
+#contact input {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+#contact .form-textarea {
+    height: 92%;
+}
+
+#contact .form-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+
+#contact .form-control:focus {
+    box-shadow: 1px 1px 12px #d8df0b;
+}
