@@ -1,37 +1,34 @@
 # Web Design Services
 
-## Projektvorschau
-Hier eine Vorschau unserer Website:
+## Project Preview
+Here's a preview of our website:
 
-![Hauptseite Vorschau](https://github.com/NiyaziGumus/WebDesignServices/blob/main/img/vorschau.gif)
+![Main Page Preview](https://github.com/NiyaziGumus/WebDesignServices/blob/main/img/vorschau.gif)
 
-## Über das Projekt
+## About the Project
 
-Dieses Projekt ist eine fiktive Website, die ich entwickelt habe, um meine Fähigkeiten im Bereich Front-End-Entwicklung zu verbessern. Ziel war es, eine kreative und ansprechende Website zu gestalten, die als Showcase für imaginäre Webdesign-Dienstleistungen dient. Die Seite soll Besuchern eine Vorstellung von den verschiedenen Services geben, die in einer realen Agentur für Webdesign und digitales Marketing angeboten werden könnten.
+This project is a fictitious website that I developed to enhance my skills in front-end development. The goal was to create a creative and engaging website that serves as a showcase for imaginary web design services. The site is designed to give visitors an idea of the various services that could be offered by a real agency specializing in web design and digital marketing.
 
+## Technologies
 
+The following technologies were used in the development of this project:
 
-## Technologien
+- **HTML5**: The basic structure of the website.
+- **CSS3 & Bootstrap 5**: For responsive layout and styling.
+- **JavaScript**: To add interactive elements.
 
-Für die Entwicklung dieses Projekts wurden folgende Technologien genutzt:
-
-- **HTML5**: Grundstruktur der Website.
-- **CSS3 & Bootstrap 5**: Für das responsive Layout und Styling.
-- **JavaScript**: Zur Hinzufügung interaktiver Elemente.
-
-Besonders hervorzuheben ist der Einsatz von Bootstrap 5, einer der führenden Frontend-Bibliotheken, die eine Vielzahl an vordefinierten CSS-Klassen bietet, welche die Entwicklung responsiver Layouts erleichtern.
+A notable feature is the use of Bootstrap 5, one of the leading frontend libraries, which offers a wide range of predefined CSS classes that facilitate the development of responsive layouts.
 
 ## Features
 
-- **Responsive Design**: Gewährleistet eine optimale Darstellung auf Desktop, Tablet und Mobilgeräten.
-- **Moderne UI/UX**: Ein frisches und modernes Design, das die Benutzererfahrung verbessert.
-- **Reine Frontend-Realisierung**: Demonstriert die Fähigkeit, interaktive Webseiten mit Frontend-Technologien zu erstellen.
+- **Responsive Design**: Ensures optimal display on desktop, tablet, and mobile devices.
+- **Modern UI/UX**: A fresh and modern design that enhances user experience.
+- **Pure Frontend Implementation**: Demonstrates the ability to create interactive websites using frontend technologies.
 
-## Nutzung
+## Usage
 
-Da dieses Projekt ausschließlich Frontend-Technologien verwendet, kann es direkt durch Öffnen der `index.html`-Datei im Browser gestartet werden. Es sind keine weiteren Installationsschritte notwendig.
+Since this project uses exclusively frontend technologies, it can be launched directly by opening the `index.html` file in a browser. No additional installation steps are necessary.
 
+## License
 
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz veröffentlicht, was bedeutet, dass es frei genutzt, modifiziert und verteilt werden kann.
+This project is released under the MIT license, meaning it can be freely used, modified, and distributed.
