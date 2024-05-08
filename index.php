@@ -8,8 +8,8 @@
     <meta name="author" content="Niyazi Gümüs">
     <meta name="description" content="Webdesign und Marketing">
     <meta name="keywords" content="Web,Design,Gestaltung,Programmierung,Software,Entwicklung">
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="<?php bloginfo('template_url'); ?>/img/favicon.png" rel="icon">
+    <link href="<?php bloginfo('template_url'); ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
     <title>Web Design Services</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
@@ -18,7 +18,7 @@
     <!-- navigation start-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
     <div class="container">
-        <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><img src="img/logo.svg" alt="logo"></a>
+        <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><img src="<?php bloginfo('template_url'); ?>/img/logo.svg" alt="logo"></a>
         <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
             aria-controls="myNavbar" aria-label="Toggle navigation" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
@@ -108,7 +108,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/1.png" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/1.png" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Schattenprinz</div>
@@ -124,7 +124,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/2.jpg" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/2.jpg" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Entdeckungsreise</div>
@@ -140,7 +140,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/3.jpg" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/3.jpg" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Lineares Universum</div>
@@ -156,7 +156,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/4.jpg" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/4.jpg" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Matrix</div>
@@ -172,7 +172,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/5.jpeg" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/5.jpeg" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Tiefenlinie</div>
@@ -188,7 +188,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/6.jpg" alt=".." />
+                        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/portfolio/6.jpg" alt=".." />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Traumfenster</div>
@@ -212,7 +212,7 @@
 
             <li>
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="img/about/1.png" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/1.png" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -226,7 +226,7 @@
             </li>
             <li class="t-inverted">
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="img/about/2.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/2.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -240,7 +240,7 @@
             </li>
             <li>
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="img/about/3.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/3.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -254,7 +254,7 @@
             </li>
             <li class="t-inverted">
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="img/about/4.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/4.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -287,7 +287,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="t-member text-center">
-                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
+                    <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/1.jpg" alt="" />
                     <h4>Niyazi Gümüs</h4>
                     <p class="text-muted">Hauptdesigner</p>
                     <a href="#" class="btn btn-dark mx-2 btn-social">
@@ -303,7 +303,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="t-member text-center">
-                    <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+                    <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/2.jpg" alt="" />
                     <h4>Lena Schmidt</h4>
                     <p class="text-muted">Marketingleiter</p>
                     <a href="#" class="btn btn-dark mx-2 btn-social">
@@ -319,7 +319,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="t-member text-center">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
+                    <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/3.jpg" alt="" />
                     <h4>Murat Poyraz</h4>
                     <p class="text-muted">Chefentwickler</p>
                     <a href="#" class="btn btn-dark mx-2 btn-social">
@@ -349,22 +349,22 @@
     <div class="row align-items-center">
         <div class="col-sm-6 col-md-3 my-3">
             <a href="#">
-                <img class="img-fluid d-block mx-auto img-logo" src="img/clients/google.svg" alt=".." />
+                <img class="img-fluid d-block mx-auto img-logo" src="<?php bloginfo('template_url'); ?>/img/clients/google.svg" alt=".." />
             </a>
         </div>
         <div class="col-sm-6 col-md-3 my-3">
             <a href="#">
-                <img class="img-fluid d-block mx-auto img-logo" src="img/clients/ibm.svg" alt=".." />
+                <img class="img-fluid d-block mx-auto img-logo" src="<?php bloginfo('template_url'); ?>/img/clients/ibm.svg" alt=".." />
             </a>
         </div>
         <div class="col-sm-6 col-md-3 my-3">
             <a href="#">
-                <img class="img-fluid d-block mx-auto img-logo" src="img/clients/facebook.svg" alt=".." />
+                <img class="img-fluid d-block mx-auto img-logo" src="<?php bloginfo('template_url'); ?>/img/clients/facebook.svg" alt=".." />
             </a>
         </div>
         <div class="col-sm-6 col-md-3 my-3">
             <a href="#">
-                <img class="img-fluid d-block mx-auto img-logo" src="img/clients/microsoft.svg" alt=".." />
+                <img class="img-fluid d-block mx-auto img-logo" src="<?php bloginfo('template_url'); ?>/img/clients/microsoft.svg" alt=".." />
             </a>
         </div>
     </div>
@@ -468,12 +468,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle1">Schattenprinz</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Einzigartige Illustration, die Fantasie und Realität verbindet.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/1.png" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/1.png" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Dieses Projekt zeigt eine Illustration, die in einer fiktiven Welt angesiedelt ist und die Geschichte eines Prinzen erzählt, der im Schatten lebt und dessen Schicksal es ist, sein Königreich aus der Dunkelheit zu führen. Die Detailtiefe und Farbgebung unterstreichen die mystische Atmosphäre und erwecken die Geschichte zum Leben.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Schattenprinz</li>
@@ -490,12 +490,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle2">Entdeckungsreise</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Ein grafisches Meisterwerk, das die Schönheit der Entdeckung einfängt.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/2.jpg" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/2.jpg" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Dieses Grafikdesign-Projekt repräsentiert die Reise des Entdeckens mit lebhaften Farben und dynamischen Formen. Es symbolisiert, wie jeder Schritt in unbekannte Gebiete unsere Perspektive erweitert und uns neue Horizonte eröffnet. Die Komposition balanciert zwischen Abstraktion und Realismus, um ein tiefes Gefühl der Bewegung und des Fortschritts zu vermitteln.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Entdeckungsreise</li>
@@ -511,12 +511,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle3">Lineares Universum</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Eine Marke, die die Essenz von Einfachheit und Eleganz einfängt.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/3.jpg" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/3.jpg" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Dieses Branding-Projekt konzentriert sich auf die Schaffung einer visuellen Identität, die Klarheit und Modernität ausstrahlt. Mit einer minimalistischen Farbpalette und scharfen Linien soll ein einprägsames Bild einer Marke geschaffen werden, die sich durch Geradlinigkeit und Innovation auszeichnet. Die Kombination aus schlichtem Design und kraftvollen Botschaften stellt eine Verbindung zum zeitgenössischen Publikum her.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Lineares Universum</li>
@@ -533,12 +533,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle4">Matrix</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Die Evolution der Markenidentität in der digitalen Ära.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/4.jpg" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/4.jpg" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Unser Ansatz für dieses Markenentwicklungsprojekt war es, eine dynamische, flexible Identität zu schaffen, die sich in der schnelllebigen digitalen Welt behauptet. Die Verwendung von geometrischen Mustern und digital inspirierten Texturen spiegelt die Kernwerte der Innovation und Technologie der Marke wider. Dieses Projekt demonstriert, wie traditionelle Konzepte in neue, digitale Formate übersetzt werden können.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Matrix</li>
@@ -555,12 +555,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle5">Tiefenlinie</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Ein Webdesign, das Tiefe und Navigation harmonisch verbindet.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/5.jpeg" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/5.jpeg" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Bei der Gestaltung dieser Website lag der Fokus darauf, eine Benutzeroberfläche zu schaffen, die nicht nur ästhetisch ansprechend ist, sondern auch eine intuitive Navigation bietet. Durch den Einsatz von Tiefenschärfe und sanften Übergängen entsteht ein einzigartiges Surferlebnis, das den Nutzer visuell und funktionell durch die Inhalte leitet.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Tiefenlinie</li>
@@ -577,12 +577,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content text-center py-5 mt-2">
             <div class="close-modal" data-bs-dismiss="modal" aria-label="Schließen">
-                <img src="img/close-icon.svg" alt="..." />
+                <img src="<?php bloginfo('template_url'); ?>/img/close-icon.svg" alt="..." />
             </div>
             <div class="modal-body">
                 <h2 class="text-uppercase mb-3" id="myTitle6">Traumfenster</h2>
                 <p class="p-intro text-muted mb-4 fst-italic">Fotografie, die den Betrachter auf eine Reise durch Träume und Realität nimmt.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/6.jpg" alt="..." />
+                <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/img/portfolio/6.jpg" alt="..." />
                 <p class="my-4 col-lg-6 mx-auto">Dieses Fotografie-Projekt fängt die flüchtigen Momente zwischen Traum und Wirklichkeit ein. Durch die Linse betrachtet, verwandeln sich alltägliche Szenen in außergewöhnliche Visionen, die zum Nachdenken anregen und die Grenzen unserer Wahrnehmung herausfordern. Jedes Bild erzählt eine eigene Geschichte, reich an Emotionen und unerwarteten Perspektiven.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Kunde:</strong> Traumfenster</li>
