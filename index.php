@@ -11,7 +11,7 @@
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
     <title>Web Design Services</title>
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="page-body">
