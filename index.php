@@ -11,7 +11,7 @@
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
     <title>Web Design Services</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 
 <body id="page-body">
@@ -596,8 +596,8 @@
 
 
 
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="js/custom/extra.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/custom/extra.js"></script>
 </body>
 
 </html>
