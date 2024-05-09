@@ -9,7 +9,7 @@
 
             <li>
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/1.png" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/about/1.png" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -23,7 +23,7 @@
             </li>
             <li class="t-inverted">
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/2.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/about/2.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -37,7 +37,7 @@
             </li>
             <li>
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/3.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/about/3.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">
@@ -51,7 +51,7 @@
             </li>
             <li class="t-inverted">
                 <div class="t-image">
-                    <img class="img-fluid rounded-circle" src="<?php bloginfo('template_url'); ?>/img/about/4.jpg" alt=".." />
+                    <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/about/4.jpg" alt=".." />
                 </div>
                 <div class="t-panel">
                     <div class="t-heading">

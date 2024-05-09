@@ -24,10 +24,7 @@
         </div>
     </footer>
     <!-- footer end -->
-
-
-    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/custom/extra.js"></script>
+    <?php wp_footer(); ?>
     </body>
 
     </html>
