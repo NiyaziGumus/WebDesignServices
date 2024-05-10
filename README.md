@@ -7,15 +7,16 @@ Here's a preview of our website:
 
 ## About the Project
 
-This project is a fictitious website that I developed to enhance my skills in front-end development. The goal was to create a creative and engaging website that serves as a showcase for imaginary web design services. The site is designed to give visitors an idea of the various services that could be offered by a real agency specializing in web design and digital marketing.
+This project is a fictitious website that I developed to enhance my skills in front-end development. It has been converted to PHP and adapted into a WordPress theme to facilitate its use as a fully functional WordPress template.
 
 ## Technologies
 
-The following technologies were used in the development of this project:
+This project now incorporates the following technologies:
 
-- **HTML5**: The basic structure of the website.
+- **HTML5 & PHP**: The basic structure of the website.
 - **CSS3 & Bootstrap 5**: For responsive layout and styling.
 - **JavaScript**: To add interactive elements.
+- **WordPress**: As the CMS backend to manage content easily.
 
 A notable feature is the use of Bootstrap 5, one of the leading frontend libraries, which offers a wide range of predefined CSS classes that facilitate the development of responsive layouts.
 
@@ -23,11 +24,11 @@ A notable feature is the use of Bootstrap 5, one of the leading frontend librari
 
 - **Responsive Design**: Ensures optimal display on desktop, tablet, and mobile devices.
 - **Modern UI/UX**: A fresh and modern design that enhances user experience.
-- **Pure Frontend Implementation**: Demonstrates the ability to create interactive websites using frontend technologies.
+- **WordPress Theme**: The site is structured as a WordPress theme to allow easy content management and updates.
 
 ## Usage
 
-Since this project uses exclusively frontend technologies, it can be launched directly by opening the `index.html` file in a browser. No additional installation steps are necessary.
+To use this project as a WordPress theme, upload it to your WordPress themes directory and activate it from the WordPress admin panel. Ensure that your server is configured to run PHP.
 
 ## License
 
