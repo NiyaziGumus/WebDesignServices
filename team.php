@@ -9,7 +9,7 @@
          <div class="row">
              <div class="col-lg-4">
                  <div class="t-member text-center">
-                     <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/1.jpg" alt="" />
+                     <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/1.jpg" alt="" />
                      <h4>Niyazi Gümüs</h4>
                      <p class="text-muted">Hauptdesigner</p>
                      <a href="#" class="btn btn-dark mx-2 btn-social">
@@ -25,7 +25,7 @@
              </div>
              <div class="col-lg-4">
                  <div class="t-member text-center">
-                     <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/2.jpg" alt="" />
+                     <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/2.jpg" alt="" />
                      <h4>Lena Schmidt</h4>
                      <p class="text-muted">Marketingleiter</p>
                      <a href="#" class="btn btn-dark mx-2 btn-social">
@@ -41,7 +41,7 @@
              </div>
              <div class="col-lg-4">
                  <div class="t-member text-center">
-                     <img class="mx-auto rounded-circle" src="<?php bloginfo('template_url'); ?>/img/team/3.jpg" alt="" />
+                     <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/3.jpg" alt="" />
                      <h4>Murat Poyraz</h4>
                      <p class="text-muted">Chefentwickler</p>
                      <a href="#" class="btn btn-dark mx-2 btn-social">

@@ -8,17 +8,17 @@
     <meta name="author" content="Niyazi Gümüs">
     <meta name="description" content="Webdesign und Marketing">
     <meta name="keywords" content="Web,Design,Gestaltung,Programmierung,Software,Entwicklung">
-    <link href="<?php bloginfo('template_url'); ?>/img/favicon.png" rel="icon">
-    <link href="<?php bloginfo('template_url'); ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" rel="icon">
+    <link href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
     <title>Web Design Services</title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <?php wp_head(); ?>
 </head>
 
 <body id="page-body">
     <!-- navigation start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
         <div class="container">
-            <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><img src="<?php bloginfo('template_url'); ?>/img/logo.svg" alt="logo"></a>
+            <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="logo"></a>
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-label="Toggle navigation" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,13 +29,20 @@
                     </button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav ms-auto text-uppercase py-lg-2" data-bs-dismiss="offcanvas">
-                        <li class="nav-item"><a href="#services" class="nav-link">Dienstleistungen</a></li>
-                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">Über uns</a></li>
-                        <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
-                    </ul>
+
+                    <?php $header_menu = array(
+                        'theme_location'  => 'header_menu',
+                        'container'       => 'div',
+                        'container_class' => 'navbar',
+                        'container_id'    => 'mainNavbar',
+                        'menu_class'      => 'navbar-nav',
+                        'menu_id'         => 'myNavbar',
+                        'fallback_cb'     => false,
+                        'walker'          => new bootstrap_5_wp_nav_menu_walker()
+                    );
+                    wp_nav_menu($header_menu);
+                    ?>
+
                 </div>
             </div>
         </div>
